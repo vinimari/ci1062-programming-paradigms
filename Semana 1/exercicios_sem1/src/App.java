@@ -18,7 +18,21 @@ public class App {
          * 3- Faça um programa em Java que leia números inteiros enquanto não for
          * digitado o número -1, e calcule e imprima a soma destes números.
          */
-        resolveProblem3();
+        // resolveProblem3();
+
+        /* 4- Faça um programa em Java que calcule e imprima a soma dos 10 primeiros múltiplos de */
+        resolveProblem4();
+    }
+
+    static void resolveProblem4() { 
+      System.out.println("## Problem 4 ##");
+      int number = 3, totalSum = 0;
+
+      for (int multiplier = 0; multiplier < 9; multiplier++) {
+        totalSum = totalSum + number * multiplier; 
+      }
+
+      System.out.println(totalSum);
     }
 
     static void resolveProblem3() {
