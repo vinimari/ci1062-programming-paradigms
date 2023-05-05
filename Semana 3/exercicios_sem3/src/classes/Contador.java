@@ -4,7 +4,13 @@ public class Contador {
   private int itemsCounter; 
   private int eventsCounter;
 
-  // Constructor
+  // Constructor default 
+  public Contador () { 
+    this.itemsCounter = 0;
+    this.eventsCounter = 0;
+  }
+
+  // Contador set value
   public Contador(int itemCounterValue, int eventCounterValue) {
     this.setCounterItems(itemCounterValue);
     this.setCounterEvents(eventCounterValue); 
